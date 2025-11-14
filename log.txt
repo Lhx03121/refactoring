@@ -1,6 +1,6 @@
-task2.4
-daeb518 (HEAD -> task2) task2.3
-4716be7 (origin/task2) task2.2
+e840aba (HEAD -> task2, origin/task2) task2.4
+daeb518 task2.3
+4716be7 task2.2
 d0b58ad task2.1
 ce590ce task1.2
 7100b83 (task1) task1.1
