@@ -1,4 +1,8 @@
-ce590ce (HEAD -> task2, origin/task2) task2.1, task2.2, task2.3, task2.4
+task2.4
+task2.3
+task2.2
+ce590ce (HEAD -> task2, origin/task2)task2.1
+task1.2
 7100b83 (task1) task1.1
 b545fe2 (origin/main, origin/HEAD, main) clarifying extracted method names in README.md
 a0124c9 fixing starter file
