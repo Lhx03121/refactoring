@@ -73,7 +73,7 @@ public class StatementPrinter {
      *
      * @param performance the performance
      * @return the amount in cents
-     * @throws RuntimeException if the play type is unknown
+     * @throws IllegalArgumentException if the play type is unknown
      */
     private int getAmount(final Performance performance) {
         final Play play = getPlay(performance);
@@ -99,8 +99,8 @@ public class StatementPrinter {
             amount = amount + Constants.COMEDY_AMOUNT_PER_AUDIENCE * audience;
         }
         else {
-            final String message = String.format("unknown type: %s", type);
-            throw new RuntimeException(message);
+            throw new IllegalArgumentException(
+                    String.format("unknown type: %s", type));
         }
 
         return amount;
